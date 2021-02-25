@@ -1,0 +1,16 @@
+.container_home {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1 {
+    font-size: 5vw;
+}
+h2,p {
+    font-size: 3vw;
+}
+img {
+    background: transparent;
+    width: 100%;
+    height: auto;
+  }  
