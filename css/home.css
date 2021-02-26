@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
 .container_home {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 h1 {
-    font-size: 5vw;
-}
-h2,p {
+    text-transform: Uppercase;
+    font-family: 'Rubik', sans-serif;
+    text-shadow: 0.1vw 0.2vw 0.4vw black;
     font-size: 3vw;
+    text-transform: Uppercase;
+    font-family: 'Rubik', sans-serif;
 }
 img {
     background: transparent;
