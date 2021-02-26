@@ -1,4 +1,42 @@
 .container_contact {
-    background-color: black;
-    color: lightgray;
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+    justify-content: space-between;
+    color: white;
+}
+a {
+    color:#dadada;
+}
+
+.contacts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.contacts > li {
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60px;
+    font-size: max(2em, 1em);
+    padding: 22px;
+    padding-left: 64px;
+    margin-left: 1em;
+    width: fit-content;
+}
+
+#email {
+    background-image: url("../images/contacts/gmail.png");
+}
+#twitter {
+    background-image: url("../images/contacts/twitter.png");
+}
+#facebook {
+    background-image: url("../images/contacts/facebook.png");
+}
+#linkedin {
+    background-image: url("../images/contacts/linkedin.png");
+}
+#youtube {
+    background-image: url("../images/contacts/youtube.png");
 }

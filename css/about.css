@@ -1,7 +1,7 @@
 .container_about {
     display: flex;
     font-size: 1.5vw;
-    flex-flow: column;
+    flex-flow: row;
     height: 100%;
     justify-content: space-between;
 }
@@ -11,5 +11,5 @@ img {
     display: block;
     width: auto;
     height: 30vw;
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
