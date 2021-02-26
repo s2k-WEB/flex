@@ -1,4 +1,11 @@
 .container_joulupukki {
-    background-color: red;
-    color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+.container_joulupukki > img {
+    position: absolute;
+    width: 40vw;
+    border: white 4px solid;
+    border-radius: 50%;
+    top: 4em;
 }
