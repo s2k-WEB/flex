@@ -4,7 +4,8 @@
 }
 .container_joulupukki > img {
     position: absolute;
-    width: 40vw;
+    width: 30vw;
+    height: auto;
     border: white 4px solid;
     border-radius: 50%;
     top: 4em;
